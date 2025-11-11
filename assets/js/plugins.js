@@ -3880,11 +3880,11 @@
         }
 
         // If from top or bottom
-        if (o.scrollFrom === 'top') {
-            scrollDis = o.scrollDistance;
-        } else {
-            scrollDis = $(document).height() - $(window).height() - o.scrollDistance;
-        }
+        // if (o.scrollFrom === 'top') {
+        //     scrollDis = o.scrollDistance;
+        // } else {
+        //     scrollDis = $(document).height() - $(window).height() - o.scrollDistance;
+        // }
 
         // Scroll function
         scrollEvent = $(window).scroll(function () {

@@ -62,7 +62,7 @@ a {
 }
 
 a,
-a > * {
+a>* {
     cursor: pointer;
     outline: medium none;
     text-decoration: none;
@@ -438,12 +438,12 @@ nav.bizes-nav {
     display: block;
 }
 
-.bizes-nav .menu > li {
+.bizes-nav .menu>li {
     float: left;
     padding: 0;
 }
 
-.bizes-nav ul.menu > li > a {
+.bizes-nav ul.menu>li>a {
     color: #61657a;
     font-size: 14px;
     font-weight: 700;
@@ -453,11 +453,11 @@ nav.bizes-nav {
     font-family: 'Poppins', sans-serif;
 }
 
-.drone .bizes-nav ul.menu > li > a:hover {
+.drone .bizes-nav ul.menu>li>a:hover {
     color: #2260ff;
 }
 
-.bike .bizes-nav ul.menu > li > a {
+.bike .bizes-nav ul.menu>li>a {
     color: #4f4f4f;
     font-size: 18px;
     font-weight: 400;
@@ -465,7 +465,7 @@ nav.bizes-nav {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.headphone .bizes-nav ul.menu > li > a {
+.headphone .bizes-nav ul.menu>li>a {
     font-size: 15px;
     color: #fff;
     font-weight: 400;
@@ -475,7 +475,7 @@ nav.bizes-nav {
     font-family: 'Poppins', sans-serif;
 }
 
-.headphone .bizes-nav ul.menu > li > a:before {
+.headphone .bizes-nav ul.menu>li>a:before {
     position: absolute;
     top: 49%;
     left: 0;
@@ -489,13 +489,13 @@ nav.bizes-nav {
     transform: scale(0.6);
 }
 
-.headphone .bizes-nav ul.menu > li > a:hover:before {
+.headphone .bizes-nav ul.menu>li>a:hover:before {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
 }
 
-.hoverboard .bizes-nav ul.menu > li > a {
+.hoverboard .bizes-nav ul.menu>li>a {
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
@@ -504,20 +504,20 @@ nav.bizes-nav {
     padding: 26px;
 }
 
-.hoverboard .bizes-nav ul.menu > li > a:last-child {
+.hoverboard .bizes-nav ul.menu>li>a:last-child {
     padding-right: 28px;
 }
 
-.bizes-nav ul.menu > li > a:last-child {
+.bizes-nav ul.menu>li>a:last-child {
     padding-right: 0;
 }
 
-.bizes-nav .menu > li:last-child > ul ul {
+.bizes-nav .menu>li:last-child>ul ul {
     left: auto;
     right: 100%;
 }
 
-.bizes-nav .menu > li ul {
+.bizes-nav .menu>li ul {
     background-color: #ffffff;
     border-top: 2px solid #1da1f2;
     opacity: 0;
@@ -540,23 +540,23 @@ nav.bizes-nav {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
 }
 
-.bizes-nav .menu > li > ul li a {
+.bizes-nav .menu>li>ul li a {
     padding: 5px 12px;
 }
 
-.bizes-nav .menu > li > ul li a:hover {
+.bizes-nav .menu>li>ul li a:hover {
     background-color: #efefef;
     border-radius: 2px;
     color: #1da1f2;
 }
 
-.bizes-nav .menu > li > ul > li > ul {
+.bizes-nav .menu>li>ul>li>ul {
     left: 100%;
     padding: 10px;
     top: 0;
 }
 
-.bizes-nav .menu > li:hover > ul {
+.bizes-nav .menu>li:hover>ul {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -567,7 +567,7 @@ nav.bizes-nav {
     visibility: visible;
 }
 
-.bizes-nav .menu > li > ul > li:hover > ul {
+.bizes-nav .menu>li>ul>li:hover>ul {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -578,7 +578,7 @@ nav.bizes-nav {
     visibility: visible;
 }
 
-.bike .bizes-nav ul.menu > li > a {
+.bike .bizes-nav ul.menu>li>a {
     margin-top: 6px;
 }
 
@@ -651,16 +651,16 @@ a.meanmenu-reveal {
     padding: 55px 0;
 }
 
-.scroll-header .bizes-nav ul.menu > li > a {
+.scroll-header .bizes-nav ul.menu>li>a {
     padding: 25px 30px;
     color: #61657a !important;
 }
 
-.headphone .scroll-header .bizes-nav ul.menu > li > a {
+.headphone .scroll-header .bizes-nav ul.menu>li>a {
     padding: 25px 0px;
 }
 
-.scroll-header .bizes-nav ul.menu > li > a:last-child {
+.scroll-header .bizes-nav ul.menu>li>a:last-child {
     padding-right: 0;
 }
 
@@ -908,7 +908,7 @@ ul.drone-dots-lists li:nth-child(6) {
     font-weight: 600;
 }
 
-ul.drone-dots-lists li > .dots-img:hover .dot-content {
+ul.drone-dots-lists li>.dots-img:hover .dot-content {
     display: block;
     visibility: visible;
 }
@@ -1177,11 +1177,11 @@ form.subscribe-form.drone:before {
 }
 
 .contact-area .single-field input::placeholder,
-.contact-area .single-field > textarea::placeholder {
+.contact-area .single-field>textarea::placeholder {
     color: #30323c;
 }
 
-.single-field > input {
+.single-field>input {
     border: 1px solid #a6bab7;
     border-radius: 5px;
     box-shadow: none;
@@ -1191,12 +1191,12 @@ form.subscribe-form.drone:before {
     width: 100%;
 }
 
-.drone .single-field > input {
+.drone .single-field>input {
     background: #d2ece8;
     height: 60px;
 }
 
-.drone .single-field > textarea {
+.drone .single-field>textarea {
     background: #d2ece8;
 }
 
@@ -1210,7 +1210,7 @@ form.subscribe-form.drone:before {
     float: right;
 }
 
-.single-field > textarea {
+.single-field>textarea {
     border: 1px solid #a6bab7;
     height: auto;
     padding: 10px 15px;
@@ -1236,64 +1236,27 @@ button.btn.btn-contact i {
 }
 
 /*=== 10. Drone Footer style ===*/
-
-footer.footer-area {
-    padding-top: 138px;
+.footer-area {
+    background-color: #000;
+    color: #fff;
 }
 
-h4.widget-title {
-    font-size: 16px;
-    color: #30323c;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 18px;
+.footer-logo {
+    max-height: 80px;
 }
 
-.drone.footer-area .widget h4.widget-title {
-    color: #30323c;
+.footer-area a:hover {
+    color: #f8c100;
+    text-decoration: underline;
 }
 
-.widget ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.social-links a {
+    font-size: 18px;
+    transition: color 0.3s;
 }
 
-.widget ul li:last-child {
-    padding-bottom: 15px;
-}
-
-.widget ul li a {
-    color: #61657a;
-    font-size: 15px;
-    margin-bottom: 15px;
-    display: block;
-}
-
-/*=== Copyright ===*/
-
-.copy-right-area {
-    border-top: 1px solid #edf2ff;
-    padding: 20px 0;
-}
-
-.footer-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right;
-}
-
-.footer-menu ul li {
-    display: inline-block;
-}
-
-.footer-menu ul li a {
-    padding: 0 10px;
+.footer-bottom {
     font-size: 14px;
-    color: #61657a;
-    text-transform: uppercase;
-    font-weight: 900;
 }
 
 /*====== 11. Bike css ======*/
@@ -1302,7 +1265,7 @@ h4.widget-title {
 
 .bike-hero {
     position: relative;
-    background-image: url(assets/img/bike/shape.png);
+    background-image: url(assets/img/bike/shape.png);   
     width: 106%;
     height: 106%;
     background-repeat: no-repeat;
@@ -2129,7 +2092,7 @@ a.music-btn:after {
 /*=== Music Subscribe ===*/
 
 .music-subscribe-content-wrap {
-    background-image: linear-gradient( 108deg, rgb(82, 86, 242) 10%, rgb(222, 147, 230) 100%);
+    background-image: linear-gradient(108deg, rgb(82, 86, 242) 10%, rgb(222, 147, 230) 100%);
     padding: 60px 0;
     text-align: center;
     border-radius: 30px;
@@ -2569,7 +2532,7 @@ footer.board-footer-area {
 
 /*=== Header Area ===*/
 
-.cam .bizes-nav ul.menu > li > a {
+.cam .bizes-nav ul.menu>li>a {
     font-weight: 400;
     color: #0e0e0e;
     font-size: 18px;
@@ -2577,7 +2540,7 @@ footer.board-footer-area {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.cam .bizes-nav ul.menu > li > a:hover {
+.cam .bizes-nav ul.menu>li>a:hover {
     color: #03d658;
 }
 
@@ -3062,7 +3025,7 @@ h4.cam-widget-title {
 
 /*====== 15. Watch Landing page ======*/
 
-.watch .bizes-nav ul.menu > li > a {
+.watch .bizes-nav ul.menu>li>a {
     color: #4acbd9;
     font-size: 15px;
     font-weight: 400;
@@ -3534,7 +3497,7 @@ footer.cam-footer-area.watch a {
 
 /*====== App Landing page ======*/
 
-.app .bizes-nav ul.menu > li > a {
+.app .bizes-nav ul.menu>li>a {
     color: #fff;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -4032,9 +3995,9 @@ a.app-btn.black span.bottom {
 .app-pricing-wrap.active {
     background-color: #2979ff;
     0px 0px 6.65px 0.35px rgba(0,
-    0,
-    0,
-    0.1);
+        0,
+        0,
+        0.1);
 }
 
 .app-pricing-wrap:hover h5,
@@ -4313,13 +4276,13 @@ form.app-subscribe-form {
     margin: auto;
 }
 
-form.contact-us-form.app .single-field > input {
+form.contact-us-form.app .single-field>input {
     height: 60px;
     border: 1px solid #efe5f5;
     margin-bottom: 30px;
 }
 
-form.contact-us-form.app .single-field > textarea {
+form.contact-us-form.app .single-field>textarea {
     height: 200px;
     border: 1px solid #efe5f5;
 }
@@ -4413,10 +4376,12 @@ header.header-area.primary-header.absulate-header.scroll-header {
         -webkit-transform: translateY(-20px);
         transform: translateY(-20px);
     }
+
     50% {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
+
     100% {
         -webkit-transform: translateY(-20px);
         transform: translateY(-20px);
@@ -4428,10 +4393,12 @@ header.header-area.primary-header.absulate-header.scroll-header {
         -webkit-transform: translateY(-20px);
         transform: translateY(-20px);
     }
+
     50% {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
+
     100% {
         -webkit-transform: translateY(-20px);
         transform: translateY(-20px);
