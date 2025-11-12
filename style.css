@@ -672,7 +672,7 @@ a.meanmenu-reveal {
 /*=== 3. Hero Area ===*/
 
 .hero-area {
-    background-image: url(assets/img/a-clean-product-photography-shot-of-mult_LjRtH1Z6QVaS2h_3IBzDTw_bqbq6tGvTASgIEPGcUYNKA.jpeg);
+    background-image: url(assets/img/Untitled\ design\ \(20\).png);
     background-repeat: no-repeat;
     height: 545px;
     background-position: 85% 55%;
@@ -1382,25 +1382,6 @@ button.widget-sbtn:hover {
 
 .bike-welcome-area {
     padding-top: 135px;
-}
-
-.bike-welcome {
-    position: relative;
-    background-image: url(assets/img/bike/shape3.png);
-    background-repeat: no-repeat;
-    background-position: 100px 100px;
-}
-
-.bike-welcome:before {
-    position: absolute;
-    top: 41px;
-    right: 25px;
-    width: 82%;
-    height: 84%;
-    content: "";
-    background: #f21251;
-    border-radius: 50%;
-    z-index: -1;
 }
 
 .bike-welcome-area .bike-section-title {
@@ -2338,11 +2319,12 @@ form.music-subscribe-form button {
 }
 
 .board-features-area {
-    background-image: url(assets/img/hoverboard/board3.jpg);
+    background-image: url(assets/img/hoverboard/Untitled\ design\ \(24\).png);
+    margin-top: 10vh;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 550px;
     background-position: top left;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
 }
 
 .board-features-content p {
@@ -3172,7 +3154,7 @@ h4.cam-widget-title {
     box-shadow: 0px 15px 68px 0px rgba(0, 0, 0, 0.35);
 }
 
-.watch-about-img:before {
+/* .watch-about-img:before {
     position: absolute;
     right: -285px;
     top: 144px;
@@ -3182,7 +3164,7 @@ h4.cam-widget-title {
     background-image: url(assets/img/watch/shape5.png);
     background-repeat: no-repeat;
     z-index: -1;
-}
+} */
 
 /*=== Features Area ===*/
 
@@ -4584,4 +4566,80 @@ a.btn-prev {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* ===== Vision & Mission Rectangle Section ===== */
+.vm-rect-section {
+  background: #fff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vm-rect-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.vm-rect-box {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px 30px;
+  width: 500px;
+  min-height: 140px;
+  transition: all 0.3s ease;
+}
+
+.vm-rect-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.vm-icon {
+  font-size: 2.5rem;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.vm-content h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.vm-content p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== Color Themes ===== */
+.vm-rect-box.mission .vm-icon {
+  color: #e63946; /* red */
+}
+
+.vm-rect-box.vision .vm-icon {
+  color: #0078ff; /* blue */
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .vm-rect-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vm-rect-box {
+    width: 90%;
+  }
 }
