@@ -3560,7 +3560,6 @@ a.app-btn {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     padding-left: 30px;
-    padding-=t: ;
     box-shadow: 0px 6px 57px 0px rgba(17, 5, 35, 0.34);
     margin-bottom: 30px;
 }
@@ -4732,7 +4731,7 @@ a.btn-prev {
     position: fixed;
     bottom: 100px;
     right: 18px;
-    background-color: #25D366;
+    /* background-color: #25D366; */
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -4749,8 +4748,8 @@ a.btn-prev {
 }
 
 .whatsapp-icon {
-    width: 32px;
-    height: 32px;
+    width: 63px;
+    height: 58px;
 }
 
 @media (max-width: 600px) {
@@ -4762,7 +4761,51 @@ a.btn-prev {
     }
 
     .whatsapp-icon {
-        width: 28px;
-        height: 28px;
+        width: 63px;
+        height: 58px;
+    }
+}
+
+/*=== Responsive code of industries we serve ===*/
+/* ==== RESPONSIVE FIX FOR INDUSTRIES SECTION ==== */
+.prev-freure-single {
+    height: auto !important;
+    padding: 20px !important;
+    display: flex !important;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Image box */
+.prev-freure-img {
+    position: relative !important;
+    width: 90px !important;
+    height: 90px !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 10px;
+}
+
+.prev-freure-img img {
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Text box */
+.prev-freure-content {
+    padding: 0 !important;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .prev-freure-single {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .prev-freure-img {
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
