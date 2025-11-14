@@ -45,6 +45,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    width: 100%;
 }
 
 /* ======================================== 2. Typography =========================================== */
@@ -1265,7 +1266,7 @@ button.btn.btn-contact i {
 
 .bike-hero {
     position: relative;
-    background-image: url(assets/img/bike/shape.png);   
+    background-image: url(assets/img/bike/shape.png);
     width: 106%;
     height: 106%;
     background-repeat: no-repeat;
@@ -4570,76 +4571,198 @@ a.btn-prev {
 
 /* ===== Vision & Mission Rectangle Section ===== */
 .vm-rect-section {
-  background: #fff;
-  padding: 80px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #fff;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vm-rect-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .vm-rect-box {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  padding: 25px 30px;
-  width: 500px;
-  min-height: 140px;
-  transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    padding: 25px 30px;
+    width: 500px;
+    min-height: 140px;
+    transition: all 0.3s ease;
 }
 
 .vm-rect-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 .vm-icon {
-  font-size: 2.5rem;
-  margin-right: 20px;
-  flex-shrink: 0;
+    font-size: 2.5rem;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .vm-content h3 {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-  font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .vm-content p {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.6;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* ===== Color Themes ===== */
 .vm-rect-box.mission .vm-icon {
-  color: #e63946; /* red */
+    color: #e63946;
+    /* red */
 }
 
 .vm-rect-box.vision .vm-icon {
-  color: #0078ff; /* blue */
+    color: #0078ff;
+    /* blue */
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .vm-rect-container {
-    flex-direction: column;
-    align-items: center;
-  }
+    .vm-rect-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .vm-rect-box {
-    width: 90%;
-  }
+    .vm-rect-box {
+        width: 90%;
+    }
+}
+
+/*=== Testimonial  ===*/
+/* =================== TESTIMONIALS SECTION =================== */
+.testimonials {
+    background-color: #fff;
+    color: #222;
+    padding: 80px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.testimonials .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.testimonials .section-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px 25px;
+    width: 320px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.testimonial-card h3 {
+    font-size: 1.2rem;
+    color: #0078ff;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .quote {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .author {
+    font-weight: 600;
+    color: #333;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation Fade-in */
+.fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: all 0.8s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-card {
+        width: 100%;
+    }
+}
+
+/* <! WhatsApp styles --> */
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 18px;
+    background-color: #25D366;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 600px) {
+    .whatsapp-float {
+        width: 48px;
+        height: 48px;
+        bottom: 100px;
+        right: 15px;
+    }
+
+    .whatsapp-icon {
+        width: 28px;
+        height: 28px;
+    }
 }
